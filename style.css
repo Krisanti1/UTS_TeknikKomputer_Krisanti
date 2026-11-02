@@ -1,0 +1,18 @@
+:root{--brand:#f97316;--brand-dark:#c2410c;--cream:#fff7ed;--choco:#431407;}
+body{font-family:'Poppins',sans-serif;background:var(--cream);color:var(--choco);}
+.btn-brand{background:var(--brand);border-color:var(--brand);color:#fff;font-weight:600;}
+.btn-brand:hover{background:var(--brand-dark);border-color:var(--brand-dark);color:#fff;}
+.navbar-nongkrong{background:linear-gradient(90deg,var(--choco),var(--brand-dark));}
+.navbar-nongkrong .navbar-brand{font-weight:700;letter-spacing:.5px;}
+.card-soft{border:0;border-radius:16px;box-shadow:0 6px 20px rgba(194,65,12,.12);}
+.table thead th{background:var(--choco);color:#fff;border:0;font-weight:600;}
+.table tbody tr:hover{background:#ffedd5;}
+.badge-cat{background:#ffedd5;color:var(--brand-dark);font-weight:600;border-radius:20px;padding:.4em .8em;}
+.form-control:focus{border-color:var(--brand);box-shadow:0 0 0 .2rem rgba(249,115,22,.25);}
+.stat{border-radius:16px;padding:18px 22px;color:#fff;}
+.stat h3{margin:0;font-weight:700;}
+.stat small{opacity:.9;}
+.login-bg{min-height:100vh;background:linear-gradient(135deg,#7c2d12,#f97316 60%,#fdba74);}
+.login-card{width:400px;border:0;border-radius:20px;box-shadow:0 20px 50px rgba(0,0,0,.25);}
+.logo{font-size:44px;line-height:1;}
+.brand-text{font-weight:700;color:var(--brand-dark);}
